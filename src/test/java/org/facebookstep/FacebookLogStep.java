@@ -38,6 +38,7 @@ public class FacebookLogStep extends FacebookMethod{
 	@Then("to close the browser")
 	public void toCloseTheBrowser() {
 		
+		closebrowser();
 	}
 
 }
