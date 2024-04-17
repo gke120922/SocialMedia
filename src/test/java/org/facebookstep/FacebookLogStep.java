@@ -10,7 +10,7 @@ import io.cucumber.java.en.When;
 public class FacebookLogStep extends FacebookMethod{
 
 	FacebookLocat fb;
-	
+
 	@When("User have to pass the username {string} data")
 	public void userHaveToPassTheUsernameData(String string) {
 		
@@ -38,7 +38,7 @@ public class FacebookLogStep extends FacebookMethod{
 	@Then("to close the browser")
 	public void toCloseTheBrowser() {
 		
-		closebrowser();
+//		closebrowser();
 	}
 
 }

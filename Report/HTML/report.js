@@ -14,6 +14,9 @@ formatter.scenario({
     }
   ]
 });
+formatter.before({
+  "status": "passed"
+});
 formatter.step({
   "name": "To Open Facebook through Chrome",
   "keyword": "Given "
@@ -232,6 +235,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.uri("file:Login.feature");
 formatter.feature({
   "name": "",
@@ -309,6 +315,9 @@ formatter.scenario({
     }
   ]
 });
+formatter.before({
+  "status": "passed"
+});
 formatter.step({
   "name": "To Open Facebook through Chrome",
   "keyword": "Given "
@@ -359,6 +368,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "",
   "description": "    To passing the values using Example tag for login function",
@@ -368,6 +380,9 @@ formatter.scenario({
       "name": "@sanity"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "To Open Facebook through Chrome",
@@ -419,6 +434,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "",
   "description": "    To passing the values using Example tag for login function",
@@ -428,6 +446,9 @@ formatter.scenario({
       "name": "@sanity"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "To Open Facebook through Chrome",
@@ -477,6 +498,9 @@ formatter.match({
   "location": "FacebookLogStep.toCloseTheBrowser()"
 });
 formatter.result({
+  "status": "passed"
+});
+formatter.after({
   "status": "passed"
 });
 });

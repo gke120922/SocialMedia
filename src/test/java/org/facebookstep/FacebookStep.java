@@ -20,7 +20,7 @@ public class FacebookStep extends FacebookMethod{
 	@Given("To Open Facebook through Chrome")
 	public void toOpenFacebookThroughChrome() {
 		
-		openBrowser();
+//		openBrowser();
 		getUrl("https://www.facebook.com/");
 		driver.manage().window().maximize();
 	}
