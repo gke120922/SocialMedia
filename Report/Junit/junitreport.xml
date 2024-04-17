@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="22.037535">
-    <testcase classname="" name="_2" time="7.8974">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="27.162151">
+    <testcase classname="" name="_2" time="10.415781">
         <system-out>
             <![CDATA[Given To Open Facebook through Chrome.......................................passed
 When User have to click create new account button...........................passed
@@ -17,7 +17,7 @@ Then Close the browser......................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="" name="_2" time="4.221208">
+    <testcase classname="" name="_2" time="5.324128">
         <system-out>
             <![CDATA[Given To Open Facebook through Chrome.......................................passed
 When User have to pass the username "Gk" data...............................passed
@@ -27,7 +27,7 @@ Then to close the browser...................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="" name="_3" time="5.602291">
+    <testcase classname="" name="_3" time="6.094191">
         <system-out>
             <![CDATA[Given To Open Facebook through Chrome.......................................passed
 When User have to pass the username "gke" data..............................passed
@@ -37,7 +37,7 @@ Then to close the browser...................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="" name="_4" time="4.316636">
+    <testcase classname="" name="_4" time="5.328051">
         <system-out>
             <![CDATA[Given To Open Facebook through Chrome.......................................passed
 When User have to pass the username "@ela" data.............................passed
